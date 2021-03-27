@@ -1,0 +1,179 @@
+<!-- A partial to be overwritten by the user.
+     Its content will appear before the closing </head>-tag -->
+
+<!-- Custom CSS via inline styles
+     You may use this template to add custom CSS to your site like so: -->
+
+<style>
+    /* GENERAL */
+    #site-head {
+        background-color: transparent;
+    }
+    body, .blog-title, .blog-description, h1, h2, h3, h4, h5, h6 {
+        color: #666666;
+        font-family: 'Arial', sans-serif;
+    }
+    .post {
+        max-width: 800px;
+        hyphens: none;
+        text-align: center;
+    }
+    @media only screen and (max-width: 500px) {
+        .post {
+            padding-top: 0;
+        }
+        #site-head {
+            height: 50%;
+        }
+    }
+
+    /* NAV */
+    a.fn-item.active {
+        color: #3a4145;
+        font-size: 18px;
+    }
+    a.btn {
+        background: #F8E5E5;
+        color: #3a4145;
+    }
+    a.btn:hover {
+        background: #f3f3f3;
+    }
+    @media only screen and (max-width: 500px) {
+        .btn.site-menu {
+            display: block;
+            margin-left: 5rem;
+            margin-right: 5rem;
+        }
+    }
+
+    /* HEADER */
+    .blog-title {
+        font-size: 6rem !important;
+    }
+    .blog-description {
+        font-size: 3rem !important;
+    }
+    .blog-title, .blog-description {
+        font-family: 'Caveat', cursive, sans-serif;
+        font-weight: 600;
+        text-shadow: #E2D3DA 2px 2px 2px;
+    }
+    @media only screen and (min-width: 500px) {
+        header .inner {
+            margin: -300px 0 0 100px;
+        }
+        .blog-title {
+            font-size: 9rem !important;
+        }
+        .blog-description {
+            font-size: 5rem !important;
+        }
+    }
+
+    /* SECTIONS */
+    .post.first .post-header {
+        display: none;
+    }
+    .post-holder {
+        background: #f3f3f3;
+    }
+    .post-holder.odd {
+        background: #E2D3DA;
+        color: #666666;
+    }
+    .post-holder hr {
+        border-top: 4px solid #fff;
+        margin: 4rem;
+    }
+    .post-holder h2 {
+        color: #C27BA0;
+        font-family: 'Caveat', cursive, sans-serif;
+        font-weight: 700;
+        font-size: 5rem;
+        margin-bottom: 30px;
+    }
+    .post-holder.odd h2 {
+        color: #fff;
+    }
+    @media only screen and (max-width: 500px) {
+        .post-holder h2 {
+            font-size: 4rem;
+        }
+    }
+
+    /* FORMATIONS */
+    #mes-formations ~ ul {
+        padding: 0;
+    }
+    #mes-formations ~ ul .bult.fa {
+        display: none;
+    }
+    #mes-formations ~ ul li {
+        margin: 0;
+    }
+
+    /* SERVICES */
+    [id^="services"] .post-header{
+        margin-bottom: 1em;
+    }
+
+
+    /* CONTACT */
+    #contact img {
+        border-radius: 50%;
+        max-width: 300px;
+    }
+
+    /* APPOINTMENT */
+    .go-rdv-button {
+        background: #49afcd url('images/Logo_White_GOrendezvous.png') no-repeat 0.75rem 0.3rem;
+        background-size: 35px;
+        color: #fff;
+        padding: 10px 10px 10px 50px;
+        border-radius: 4px;
+    }
+    @media only screen and (max-width: 500px) {
+        .go-rdv-button {
+            background-position-y: 0.1rem;
+        }
+    }
+</style>
+
+<!-- Custom CSS via "custom.css"-file
+     If you would rather place your custom CSS into
+     a separate file, create a "custom.css" in your
+     local "static/css"-directory. Then add a <link>-tag
+     referencing your "custom.css" like so: -->
+
+<!-- <link rel="stylesheet" href='{{ "css/custom.css" | absURL }}'> -->
+
+<!-- Custom CSS: Color Codes
+     You may checkout https://htmlcolorcodes.com/ to get those
+     weird color codes (like "#22343A") ;-). -->
+
+<!-- Custom link-tags for different icons
+     Generated via https://favicon.io/favicon-generator/ -->
+
+<link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="{{ " images/apple-touch-icon.png" | absURL }}"
+/>
+<link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="{{ " images/favicon-32x32.png" | absURL }}"
+/>
+<link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="{{ " images/favicon-16x16.png" | absURL }}"
+/>
+
+<link rel="preconnect" href="https://fonts.gstatic.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+
+<base target="_blank"/>
