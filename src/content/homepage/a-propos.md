@@ -14,7 +14,7 @@ La joie que m’apportait le contact avec les gens se confirmait mais dans mon g
 Une très grande remise en question s’est imposée et la massothérapie m’a paru évidente.
 Être à l’écoute et aider les gens a toujours été ancré en moi.
 
-**La massothérapie apporte une nouvelle dimension à mes capacités: je peux vous entendre avec mes mains.**
+**La massothérapie apporte une nouvelle dimension à mes capacités : je peux vous entendre avec mes mains.**
 
 ![Virginie Dang au jardin botanique de Montréal](images/virginie_dang_jardin_botanique_montreal.jpg)
 
