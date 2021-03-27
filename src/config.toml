@@ -17,7 +17,7 @@ title = "Virginie Dang - Massothérapeute agréée"
     copyright = "© 2021 - Virginie Dang"
 
     # The "description" of your website. This is used in the meta data of your generated html.
-    description = "Massothérapie et bien-être"
+    description = "Massothérapie et bien-être à Montréal, quartier Petite-Patrie. Prise de rendez-vous pour un massage Suédois de détente ou intramusculaire."
 
     # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
     favicon = "images/favicon.png"
