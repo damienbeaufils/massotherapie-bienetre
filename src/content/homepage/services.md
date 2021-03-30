@@ -14,7 +14,7 @@ Le massage suédois peut se faire dans une optique de détente ou thérapeutique
 
 Pour réserver un soin, c’est par ici : {{< go-rdv-button "Sign up for free!" "https://www.gorendezvous.com/virginiedang-mapp" >}}
 
-J’offre mes services à la Clinique des Médecines Alternatives de La Petite-Patrie car je crois fermement à l’approche multidisciplinaire.
+J’offre mes services à la [Clinique des Médecines Alternatives de La Petite-Patrie](https://www.cliniquemapp.com/virginiedang) car je crois fermement à l’approche multidisciplinaire.
 
 {{<br>}}{{<icon class="fa fa-map-marker">}}&nbsp;**Clinique des Médecines Alternatives de la Petite-Patrie**{{<br>}}6955 Ave Christophe-Colomb #104, Montréal, QC H2S 1H6
 
