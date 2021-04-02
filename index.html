@@ -69,7 +69,7 @@
         hyphens: none;
         text-align: center;
     }
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 769px) {
         .post {
             padding-top: 0;
         }
@@ -90,7 +90,7 @@
     a.btn:hover {
         background: #f3f3f3;
     }
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 769px) {
         .btn.site-menu {
             display: block;
             margin-left: 5rem;
@@ -110,7 +110,7 @@
         font-weight: 600;
         text-shadow: #E2D3DA 2px 2px 2px;
     }
-    @media only screen and (min-width: 500px) {
+    @media only screen and (min-width: 769px) {
         header .inner {
             margin: -300px 0 0 100px;
         }
@@ -147,7 +147,7 @@
     .post-holder.odd h2 {
         color: #fff;
     }
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 769px) {
         .post-holder h2 {
             font-size: 4rem;
         }
@@ -184,7 +184,7 @@
         padding: 10px 10px 10px 50px;
         border-radius: 4px;
     }
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 769px) {
         .go-rdv-button {
             background-position-y: 0.1rem;
         }
@@ -245,6 +245,8 @@
                  <a class='btn site-menu' data-title-anchor='à-propos'>À propos</a>
             
                  <a class='btn site-menu' data-title-anchor='services--prise-de-rdv'>Services &amp; prise de RDV</a>
+            
+                 <a class='btn site-menu' data-title-anchor='actualités'>Actualités</a>
             
                  <a class='btn site-menu' data-title-anchor='contact'>Contact</a>
             
@@ -329,6 +331,25 @@ La joie que m’apportait le contact avec les gens se confirmait mais dans mon g
         </div>
     
         <div class='post-holder'>
+            <article id='actualités' class='post '>
+                <header class="post-header">
+                    <h2 class="post-title">Actualités</h2>
+                </header>
+                <section class="post-content">
+                    <div class="fb-page" data-href='https://www.facebook.com/virginiedang.massotherapeute' data-tabs="timeline"
+     data-width='800' data-height='700' data-small-header="true" data-adapt-container-width="true" data-hide-cover="false"
+     data-show-facepile="true">
+    <blockquote cite='https://www.facebook.com/virginiedang.massotherapeute' class="fb-xfbml-parse-ignore"><a
+            href='https://www.facebook.com/virginiedang.massotherapeute'>Virginie Dang Massothérapeute</a></blockquote>
+</div>
+
+
+                </section>
+            </article>
+            <div class='post-after'></div>
+        </div>
+    
+        <div class='post-holder'>
             <article id='contact' class='post last'>
                 <header class="post-header">
                     <h2 class="post-title">Contact</h2>
@@ -369,6 +390,9 @@ La joie que m’apportait le contact avec les gens se confirmait mais dans mon g
 
 
 <div id="fb-root"></div>
+
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_CA/sdk.js#xfbml=1&version=v10.0" nonce="H6bD0TGG"></script>
+
 <script>
     window.fbAsyncInit = function() {
         FB.init({
@@ -381,7 +405,7 @@ La joie que m’apportait le contact avec les gens se confirmait mais dans mon g
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/fr_FR/sdk/xfbml.customerchat.js';
+        js.src = 'https://connect.facebook.net/fr_CA/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 
