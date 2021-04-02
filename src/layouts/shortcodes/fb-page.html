@@ -6,7 +6,9 @@
 </div>
 
 <script>
-    if (window.innerWidth < {{ .Get "width" }}) {
-        document.getElementsByClassName("fb-page")[0].removeAttribute('data-width');
+    if (window.innerWidth < 769) {
+        const fbPageDiv = document.getElementsByClassName("fb-page")[0];
+        fbPageDiv.removeAttribute('data-width');
+        fbPageDiv.removeAttribute('data-height');
     }
 </script>
