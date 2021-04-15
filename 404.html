@@ -69,12 +69,20 @@
         hyphens: none;
         text-align: center;
     }
+    @media only screen and (max-width: 320px) {
+        #site-head {
+            height: 95%;
+        }
+    }
     @media only screen and (max-width: 769px) {
         .post {
             padding-top: 0;
         }
         #site-head {
-            height: 50%;
+            height: 90%;
+        }
+        .vertical {
+            vertical-align: bottom;
         }
     }
 
@@ -93,32 +101,81 @@
     @media only screen and (max-width: 769px) {
         .btn.site-menu {
             display: block;
-            margin-left: 5rem;
-            margin-right: 5rem;
+            margin-left: 12%;
+            margin-right: 12%;
+        }
+    }
+    @media only screen and (min-width: 426px) {
+        .btn.site-menu {
+            font-size: 2rem;
         }
     }
 
      
     .blog-title {
-        font-size: 6rem !important;
+        font-size: 4rem !important;
     }
     .blog-description {
         font-size: 3rem !important;
     }
     .blog-title, .blog-description {
-        font-family: 'Caveat', cursive, sans-serif;
-        font-weight: 600;
+        font-family: 'Satisfy', cursive, sans-serif;
+        font-weight: normal;
         text-shadow: #E2D3DA 2px 2px 2px;
     }
-    @media only screen and (min-width: 769px) {
-        header .inner {
-            margin: -300px 0 0 100px;
+    .header-quote {
+        font-family: 'Satisfy', cursive, sans-serif;
+        text-shadow: #E2D3DA 2px 2px 2px;
+        line-height: normal;
+        font-size: 2.25rem;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        margin: 0;
+        position: absolute;
+        z-index: 1;
+    }
+    .quote-author {
+        display: none;
+    }
+    @media only screen and (min-width: 321px) {
+        .header-quote {
+            font-size: 2.5rem;
         }
+    }
+    @media only screen and (min-width: 425px) {
         .blog-title {
-            font-size: 9rem !important;
+            font-size: 6rem !important;
+        }
+        .blog-description {
+            font-size: 4rem !important;
+        }
+        .header-quote {
+            font-size: 4rem;
+        }
+    }
+    @media only screen and (min-width: 768px) {
+        .blog-title {
+            font-size: 7rem !important;
         }
         .blog-description {
             font-size: 5rem !important;
+        }
+        .header-quote {
+            top: 33px;
+            font-size: 5rem;
+        }
+    }
+    @media only screen and (min-width: 1024px) {
+        header .inner {
+            margin: 175px 0 0 100px;
+        }
+        .header-quote {
+            top: 100px;
+        }
+        .quote-author {
+            display: block;
+            font-size: 3.5rem;
         }
     }
 
@@ -139,8 +196,8 @@
     }
     .post-holder h2 {
         color: #C27BA0;
-        font-family: 'Caveat', cursive, sans-serif;
-        font-weight: 700;
+        font-family: 'Satisfy', cursive, sans-serif;
+        font-weight: normal;
         font-size: 5rem;
         margin-bottom: 30px;
     }
@@ -218,7 +275,7 @@
 />
 
 <link rel="preconnect" href="https://fonts.gstatic.com"/>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet"/>
 
 <base target="_blank"/>
 
@@ -231,7 +288,8 @@
     gtag('config', 'G-698X13KBMJ');
 </script>
 
-<body>
+<body><blockquote class="header-quote">« Prendre une pause, briser volontairement le rythme, c'est se donner le temps de vivre »<span class="quote-author">Robert Brisebois</span></blockquote>
+
   <main class="content page-template 404" role="main">
     <article class="post page">
       <header class="post-header">
