@@ -38,5 +38,4 @@ Je choisis de continuer en massothérapie avancée car j'ai toujours été entou
 
 ## Certification professionnelle
 
-[Membre du Réseau des massothérapeutes professionnels du Québec (RMPQ)](https://rmpq.ca/repertoire-des-membres/montreal-rosemont-la-petite-patrie/virginie-dang-778809/)
-
+[![Membre du Réseau des massothérapeutes professionnels du Québec (RMPQ)](images/rmpq.jpg)](https://rmpq.ca/repertoire-des-membres/montreal-rosemont-la-petite-patrie/virginie-dang-778809/)
