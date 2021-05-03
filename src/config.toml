@@ -9,7 +9,7 @@ defaultContentLanguage = "fr"
 theme = "hugo-scroll"
 
 # The "title" of your website
-title = "Virginie Dang - Massothérapeute agréée"
+title = "Virginie Dang - Massothérapeute"
 
 [params]
     # A "copyright"-line to be added at the bottom of the page.
@@ -31,7 +31,7 @@ title = "Virginie Dang - Massothérapeute agréée"
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
     # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-    title = "Virginie Dang - Massothérapeute agréée"
+    title = "Virginie Dang - Massothérapeute"
 
     # This theme will, by default, inject a design-by-line at the bottom of the page.
     # You can turn it off, but we would really appreciate if you don’t :-)
