@@ -1,10 +1,8 @@
 ---
 title: "À propos"
 header_menu: true
-weight: 1
+weight: 3
 ---
-
-## Qui suis-je ?
 
 Mon parcours a fait quelques détours avant de m’amener à la massothérapie.
 
@@ -38,4 +36,7 @@ Je choisis de continuer en massothérapie avancée car j'ai toujours été entou
 
 ## Certification professionnelle
 
+Membre du Réseau des massothérapeutes professionnels du Québec (RMPQ), j'émets des reçus d'assurance.
+
 [![Membre du Réseau des massothérapeutes professionnels du Québec (RMPQ)](images/rmpq.jpg)](https://rmpq.ca/repertoire-des-membres/montreal-rosemont-la-petite-patrie/virginie-dang-778809/)
+

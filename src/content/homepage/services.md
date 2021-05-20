@@ -1,18 +1,22 @@
 ---
 title: "Services & prise de RDV"
-weight: 2
+weight: 1
 header_menu: true
 ---
 
-###### Massage Suédois de 60 ou 90 minutes
+## Services & prise de RDV
+
+###### Massage professionnel suédois de détente ou thérapeutique
+###### 60 minutes (80$) - 90 minutes (110$) 
 
 Le massage suédois rassemble un enchaînement de manoeuvres principalement exécutée sur la musculature et les articulations.
-
 Il procure une meilleure circulation du sang et donc une meilleure élimination des toxines, il va tonifier et relâcher les muscles et surtout … un arrêt dans le temps pour vous centrer sur votre mieux-être !
 
 Le massage suédois peut se faire dans une optique de détente ou thérapeutique dépendamment de vos besoins.
 
 Pour réserver un soin, c’est par ici : {{< go-rdv-button "Sign up for free!" "https://www.gorendezvous.com/virginiedang-mapp" >}}
+
+![Virginie Dang préparant la table de massage](images/virginie_dang_table_massage.jpg)
 
 J’offre mes services à la [Clinique des Médecines Alternatives de La Petite-Patrie](https://www.cliniquemapp.com/virginiedang) car je crois fermement à l’approche multidisciplinaire.
 
