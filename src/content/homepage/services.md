@@ -1,9 +1,11 @@
 ---
-title: "Services & prise de RDV"
+title: "Services"
 weight: 1
 header_menu: true
 ---
+#### « Prendre une pause, briser volontairement le rythme, c'est se donner le temps de vivre » - Robert Brisebois
 
+------
 ## Services & prise de RDV
 
 ###### Massage professionnel suédois de détente ou thérapeutique
@@ -15,8 +17,6 @@ Il procure une meilleure circulation du sang et donc une meilleure élimination 
 Le massage suédois peut se faire dans une optique de détente ou thérapeutique dépendamment de vos besoins.
 
 Pour réserver un soin, c’est par ici : {{< go-rdv-button "Sign up for free!" "https://www.gorendezvous.com/virginiedang-mapp" >}}
-
-![Virginie Dang préparant la table de massage](images/virginie_dang_table_massage.jpg)
 
 J’offre mes services à la [Clinique des Médecines Alternatives de La Petite-Patrie](https://www.cliniquemapp.com/virginiedang) car je crois fermement à l’approche multidisciplinaire.
 

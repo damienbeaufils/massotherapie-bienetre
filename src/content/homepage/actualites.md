@@ -1,6 +1,6 @@
 ---
 title: "Actualités"
-weight: 2
+weight: 3
 header_menu: true
 ---
 

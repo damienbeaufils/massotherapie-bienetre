@@ -9,7 +9,7 @@
     #site-head {
         background-color: transparent;
     }
-    body, .blog-title, .blog-description, h1, h2, h3, h4, h5, h6 {
+    body, h1, h2, h3, h4, h5, h6 {
         color: #666666;
         font-family: 'Arial', sans-serif;
     }
@@ -25,14 +25,6 @@
         #site-head {
             height: 90%;
         }
-        .vertical {
-            vertical-align: bottom;
-        }
-    }
-    @media only screen and (max-width: 360px) {
-        #site-head {
-            height: 95%;
-        }
     }
 
     /* NAV */
@@ -41,7 +33,7 @@
         font-size: 18px;
     }
     a.btn {
-        background: #F8E5E5;
+        background: #fcf0f0;
         color: #3a4145;
     }
     a.btn:hover {
@@ -50,8 +42,8 @@
     @media only screen and (max-width: 769px) {
         .btn.site-menu {
             display: block;
-            margin-left: 12%;
-            margin-right: 12%;
+            margin-left: 20%;
+            margin-right: 20%;
         }
     }
     @media only screen and (min-width: 426px) {
@@ -70,7 +62,8 @@
     .blog-title, .blog-description {
         font-family: 'Satisfy', cursive, sans-serif;
         font-weight: normal;
-        text-shadow: #E2D3DA 2px 2px 2px;
+        text-shadow: #FFF 2px 2px 2px;
+        color: #575757;
     }
     .header-quote {
         font-family: 'Satisfy', cursive, sans-serif;
@@ -117,7 +110,7 @@
     }
     @media only screen and (min-width: 1024px) {
         header .inner {
-            margin: 175px 0 0 100px;
+            margin: -400px auto 0 auto;
         }
         .header-quote {
             top: 10%;
@@ -156,6 +149,10 @@
     @media only screen and (max-width: 769px) {
         .post-holder h2 {
             font-size: 4rem;
+        }
+        .post.first h4:first-of-type,
+        .post.first hr:first-of-type {
+            display: none;
         }
     }
 

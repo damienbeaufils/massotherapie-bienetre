@@ -1,7 +1,7 @@
 ---
 title: "À propos"
 header_menu: true
-weight: 3
+weight: 2
 ---
 
 Mon parcours a fait quelques détours avant de m’amener à la massothérapie.
