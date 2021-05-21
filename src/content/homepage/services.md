@@ -3,7 +3,7 @@ title: "Services"
 weight: 1
 header_menu: true
 ---
-#### « Prendre une pause, briser volontairement le rythme, c'est se donner le temps de vivre » - Robert Brisebois
+##### « Prendre une pause, briser volontairement le rythme, c'est se donner le temps de vivre » - Robert Brisebois
 
 ------
 ## Services & prise de RDV
