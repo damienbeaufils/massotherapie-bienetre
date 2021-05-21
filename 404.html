@@ -60,7 +60,7 @@
     #site-head {
         background-color: transparent;
     }
-    body, .blog-title, .blog-description, h1, h2, h3, h4, h5, h6 {
+    body, h1, h2, h3, h4, h5, h6 {
         color: #666666;
         font-family: 'Arial', sans-serif;
     }
@@ -76,14 +76,6 @@
         #site-head {
             height: 90%;
         }
-        .vertical {
-            vertical-align: bottom;
-        }
-    }
-    @media only screen and (max-width: 360px) {
-        #site-head {
-            height: 95%;
-        }
     }
 
      
@@ -92,7 +84,7 @@
         font-size: 18px;
     }
     a.btn {
-        background: #F8E5E5;
+        background: #fcf0f0;
         color: #3a4145;
     }
     a.btn:hover {
@@ -101,8 +93,8 @@
     @media only screen and (max-width: 769px) {
         .btn.site-menu {
             display: block;
-            margin-left: 12%;
-            margin-right: 12%;
+            margin-left: 20%;
+            margin-right: 20%;
         }
     }
     @media only screen and (min-width: 426px) {
@@ -121,27 +113,8 @@
     .blog-title, .blog-description {
         font-family: 'Satisfy', cursive, sans-serif;
         font-weight: normal;
-        text-shadow: #E2D3DA 2px 2px 2px;
-    }
-    .header-quote {
-        font-family: 'Satisfy', cursive, sans-serif;
-        text-shadow: #E2D3DA 2px 2px 2px;
-        line-height: normal;
-        font-size: 2.25rem;
-        width: 100%;
-        text-align: center;
-        padding: 20px;
-        margin: 0;
-        position: absolute;
-        z-index: 1;
-    }
-    .quote-author {
-        display: none;
-    }
-    @media only screen and (min-width: 321px) {
-        .header-quote {
-            font-size: 2.5rem;
-        }
+        text-shadow: #FFF 2px 2px 2px;
+        color: #575757;
     }
     @media only screen and (min-width: 425px) {
         .blog-title {
@@ -149,9 +122,6 @@
         }
         .blog-description {
             font-size: 4rem !important;
-        }
-        .header-quote {
-            font-size: 4rem;
         }
     }
     @media only screen and (min-width: 768px) {
@@ -161,21 +131,10 @@
         .blog-description {
             font-size: 5rem !important;
         }
-        .header-quote {
-            top: 3%;
-            font-size: 5rem;
-        }
     }
     @media only screen and (min-width: 1024px) {
         header .inner {
-            margin: 175px 0 0 100px;
-        }
-        .header-quote {
-            top: 10%;
-        }
-        .quote-author {
-            display: block;
-            font-size: 3.5rem;
+            margin: -400px auto 0 auto;
         }
     }
 
@@ -207,6 +166,10 @@
     @media only screen and (max-width: 769px) {
         .post-holder h2 {
             font-size: 4rem;
+        }
+        .post.first h4:first-of-type,
+        .post.first hr:first-of-type {
+            display: none;
         }
     }
 
@@ -288,8 +251,7 @@
     gtag('config', 'G-698X13KBMJ');
 </script>
 
-<body><blockquote class="header-quote">« Prendre une pause, briser volontairement le rythme, c'est se donner le temps de vivre »<span class="quote-author">Robert Brisebois</span></blockquote>
-
+<body>
   <main class="content page-template 404" role="main">
     <article class="post page">
       <header class="post-header">

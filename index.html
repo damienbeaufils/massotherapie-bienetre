@@ -60,7 +60,7 @@
     #site-head {
         background-color: transparent;
     }
-    body, .blog-title, .blog-description, h1, h2, h3, h4, h5, h6 {
+    body, h1, h2, h3, h4, h5, h6 {
         color: #666666;
         font-family: 'Arial', sans-serif;
     }
@@ -76,14 +76,6 @@
         #site-head {
             height: 90%;
         }
-        .vertical {
-            vertical-align: bottom;
-        }
-    }
-    @media only screen and (max-width: 360px) {
-        #site-head {
-            height: 95%;
-        }
     }
 
      
@@ -92,7 +84,7 @@
         font-size: 18px;
     }
     a.btn {
-        background: #F8E5E5;
+        background: #fcf0f0;
         color: #3a4145;
     }
     a.btn:hover {
@@ -101,8 +93,8 @@
     @media only screen and (max-width: 769px) {
         .btn.site-menu {
             display: block;
-            margin-left: 12%;
-            margin-right: 12%;
+            margin-left: 20%;
+            margin-right: 20%;
         }
     }
     @media only screen and (min-width: 426px) {
@@ -121,27 +113,8 @@
     .blog-title, .blog-description {
         font-family: 'Satisfy', cursive, sans-serif;
         font-weight: normal;
-        text-shadow: #E2D3DA 2px 2px 2px;
-    }
-    .header-quote {
-        font-family: 'Satisfy', cursive, sans-serif;
-        text-shadow: #E2D3DA 2px 2px 2px;
-        line-height: normal;
-        font-size: 2.25rem;
-        width: 100%;
-        text-align: center;
-        padding: 20px;
-        margin: 0;
-        position: absolute;
-        z-index: 1;
-    }
-    .quote-author {
-        display: none;
-    }
-    @media only screen and (min-width: 321px) {
-        .header-quote {
-            font-size: 2.5rem;
-        }
+        text-shadow: #FFF 2px 2px 2px;
+        color: #575757;
     }
     @media only screen and (min-width: 425px) {
         .blog-title {
@@ -149,9 +122,6 @@
         }
         .blog-description {
             font-size: 4rem !important;
-        }
-        .header-quote {
-            font-size: 4rem;
         }
     }
     @media only screen and (min-width: 768px) {
@@ -161,21 +131,10 @@
         .blog-description {
             font-size: 5rem !important;
         }
-        .header-quote {
-            top: 3%;
-            font-size: 5rem;
-        }
     }
     @media only screen and (min-width: 1024px) {
         header .inner {
-            margin: 175px 0 0 100px;
-        }
-        .header-quote {
-            top: 10%;
-        }
-        .quote-author {
-            display: block;
-            font-size: 3.5rem;
+            margin: -400px auto 0 auto;
         }
     }
 
@@ -207,6 +166,10 @@
     @media only screen and (max-width: 769px) {
         .post-holder h2 {
             font-size: 4rem;
+        }
+        .post.first h4:first-of-type,
+        .post.first hr:first-of-type {
+            display: none;
         }
     }
 
@@ -288,8 +251,7 @@
     gtag('config', 'G-698X13KBMJ');
 </script>
 
-<body><blockquote class="header-quote">« Prendre une pause, briser volontairement le rythme, c'est se donner le temps de vivre »<span class="quote-author">Robert Brisebois</span></blockquote>
-
+<body>
 
 
 <header id="site-head" style="background-image: url(images/cover-image.jpg)">
@@ -300,11 +262,11 @@
             <h2 class="blog-description">Massothérapeute</h2>
 
             
-                 <a class='btn site-menu' data-title-anchor='services--prise-de-rdv'>Services &amp; prise de RDV</a>
-            
-                 <a class='btn site-menu' data-title-anchor='actualités'>Actualités</a>
+                 <a class='btn site-menu' data-title-anchor='services'>Services</a>
             
                  <a class='btn site-menu' data-title-anchor='à-propos'>À propos</a>
+            
+                 <a class='btn site-menu' data-title-anchor='actualités'>Actualités</a>
             
                  <a class='btn site-menu' data-title-anchor='contact'>Contact</a>
             
@@ -318,12 +280,14 @@
     </div>
     
         <div class='post-holder'>
-            <article id='services--prise-de-rdv' class='post first'>
+            <article id='services' class='post first'>
                 <header class="post-header">
-                    <h2 class="post-title">Services &amp; prise de RDV</h2>
+                    <h2 class="post-title">Services</h2>
                 </header>
                 <section class="post-content">
-                    <h2 id="services--prise-de-rdv">Services &amp; prise de RDV</h2>
+                    <h4 id="-prendre-une-pause-briser-volontairement-le-rythme-cest-se-donner-le-temps-de-vivre----robert-brisebois">« Prendre une pause, briser volontairement le rythme, c&rsquo;est se donner le temps de vivre » - Robert Brisebois</h4>
+<hr>
+<h2 id="services--prise-de-rdv">Services &amp; prise de RDV</h2>
 <h6 id="massage-professionnel-suédois-de-détente-ou-thérapeutique">Massage professionnel suédois de détente ou thérapeutique</h6>
 <h6 id="60-minutes-80---90-minutes-110">60 minutes (80$) - 90 minutes (110$)</h6>
 <p>Le massage suédois rassemble un enchaînement de manoeuvres principalement exécutée sur la musculature et les articulations.
@@ -335,7 +299,6 @@ Il procure une meilleure circulation du sang et donc une meilleure élimination 
     </button>
 </a>
 </p>
-<p><img src="images/virginie_dang_table_massage.jpg" alt="Virginie Dang préparant la table de massage"></p>
 <p>J’offre mes services à la <a href="https://www.cliniquemapp.com/virginiedang">Clinique des Médecines Alternatives de La Petite-Patrie</a> car je crois fermement à l’approche multidisciplinaire.</p>
 <p><br/>
 <i class="fa fa-map-marker"></i> <strong>Clinique des Médecines Alternatives de la Petite-Patrie</strong><br/>
@@ -351,6 +314,29 @@ Il procure une meilleure circulation du sang et donc une meilleure élimination 
 	</iframe>
 </div>
 
+
+                </section>
+            </article>
+            <div class='post-after'></div>
+        </div>
+    
+        <div class='post-holder'>
+            <article id='à-propos' class='post '>
+                <header class="post-header">
+                    <h2 class="post-title">À propos</h2>
+                </header>
+                <section class="post-content">
+                    <p>Mon parcours a fait quelques détours avant de m’amener à la massothérapie.</p>
+<p>J’ai eu la chance de pouvoir travailler dans le tourisme pendant plusieurs années.
+La joie que m’apportait le contact avec les gens se confirmait mais dans mon grand fort intérieur, j’ai toujours souhaité apporter plus qu’un sourire, plus qu’un unique service à la clientèle.</p>
+<p>Une très grande remise en question s’est imposée et la massothérapie m’a paru évidente.
+Être à l’écoute et aider les gens a toujours été ancré en moi.</p>
+<p><strong>La massothérapie apporte une nouvelle dimension à mes capacités : je peux vous entendre avec mes mains.</strong></p>
+<p><img src="images/virginie_dang_jardin_botanique_montreal.jpg" alt="Virginie Dang au jardin botanique de Montréal"></p>
+<hr>
+<h2 id="certification-professionnelle">Certification professionnelle</h2>
+<p>Membre du Réseau des massothérapeutes professionnels du Québec (RMPQ), j&rsquo;émets des reçus d&rsquo;assurance.</p>
+<p><a href="https://rmpq.ca/repertoire-des-membres/montreal-rosemont-la-petite-patrie/virginie-dang-778809/"><img src="images/rmpq.jpg" alt="Membre du Réseau des massothérapeutes professionnels du Québec (RMPQ)"></a></p>
 
                 </section>
             </article>
@@ -378,40 +364,6 @@ Il procure une meilleure circulation du sang et donc une meilleure élimination 
     }
 </script>
 
-
-                </section>
-            </article>
-            <div class='post-after'></div>
-        </div>
-    
-        <div class='post-holder'>
-            <article id='à-propos' class='post '>
-                <header class="post-header">
-                    <h2 class="post-title">À propos</h2>
-                </header>
-                <section class="post-content">
-                    <p>Mon parcours a fait quelques détours avant de m’amener à la massothérapie.</p>
-<p>J’ai eu la chance de pouvoir travailler dans le tourisme pendant plusieurs années.
-La joie que m’apportait le contact avec les gens se confirmait mais dans mon grand fort intérieur, j’ai toujours souhaité apporter plus qu’un sourire, plus qu’un unique service à la clientèle.</p>
-<p>Une très grande remise en question s’est imposée et la massothérapie m’a paru évidente.
-Être à l’écoute et aider les gens a toujours été ancré en moi.</p>
-<p><strong>La massothérapie apporte une nouvelle dimension à mes capacités : je peux vous entendre avec mes mains.</strong></p>
-<p><img src="images/virginie_dang_jardin_botanique_montreal.jpg" alt="Virginie Dang au jardin botanique de Montréal"></p>
-<hr>
-<h2 id="mes-formations">Mes formations</h2>
-<h6 id="praticienne-en-massothérapie-académie-de-massage-scientifique-de-montréal-424-heures---diplômée-en-2021">Praticienne en massothérapie (Académie de Massage Scientifique de Montréal, 424 heures - diplômée en 2021)</h6>
-<ul>
-<li>Massage Suédois de détente</li>
-<li>Massage Suédois de détente spécifique</li>
-<li>Massage Suédois Intramusculaire</li>
-</ul>
-<h6 id="massothérapie-avancée-académie-de-massage-scientifique-de-montréal-en-cours-dobtention">Massothérapie Avancée (Académie de Massage Scientifique de Montréal, en cours d’obtention)</h6>
-<p>Je choisis de continuer en massothérapie avancée car j&rsquo;ai toujours été entourée de personnes ayant des maux de «vie» que ce soit dû au travail, au stress, aux problèmes personnels. Je décide de pousser ma formation dans l&rsquo;optique d’apporter une approche thérapeutique afin de vous rendre la vie plus agréable !</p>
-<p><img src="images/ikebana_jardin_botanique_montreal.jpg" alt="Ikebana et Zen au jardin botanique de Montréal"></p>
-<hr>
-<h2 id="certification-professionnelle">Certification professionnelle</h2>
-<p>Membre du Réseau des massothérapeutes professionnels du Québec (RMPQ), j&rsquo;émets des reçus d&rsquo;assurance.</p>
-<p><a href="https://rmpq.ca/repertoire-des-membres/montreal-rosemont-la-petite-patrie/virginie-dang-778809/"><img src="images/rmpq.jpg" alt="Membre du Réseau des massothérapeutes professionnels du Québec (RMPQ)"></a></p>
 
                 </section>
             </article>
