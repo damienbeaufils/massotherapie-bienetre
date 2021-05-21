@@ -18,22 +18,6 @@ Une très grande remise en question s’est imposée et la massothérapie m’a 
 
 ---
 
-## Mes formations
-
-###### Praticienne en massothérapie (Académie de Massage Scientifique de Montréal, 424 heures - diplômée en 2021)
-
-- Massage Suédois de détente
-- Massage Suédois de détente spécifique
-- Massage Suédois Intramusculaire
-
-###### Massothérapie Avancée (Académie de Massage Scientifique de Montréal, en cours d’obtention)
-
-Je choisis de continuer en massothérapie avancée car j'ai toujours été entourée de personnes ayant des maux de «vie» que ce soit dû au travail, au stress, aux problèmes personnels. Je décide de pousser ma formation dans l'optique d’apporter une approche thérapeutique afin de vous rendre la vie plus agréable !
-
-![Ikebana et Zen au jardin botanique de Montréal](images/ikebana_jardin_botanique_montreal.jpg)
-
----
-
 ## Certification professionnelle
 
 Membre du Réseau des massothérapeutes professionnels du Québec (RMPQ), j'émets des reçus d'assurance.
